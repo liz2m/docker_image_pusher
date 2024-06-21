@@ -10,7 +10,7 @@ easytier/easytier
 # k8s flannel 组件
 flannel/flannel:v0.25.4
 flannel/flannel-cni-plugin:v1.4.1-flannel1
-docker.io/flannel/flannel:v0.25.4
+flannel/flannel:v0.25.4
 
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
