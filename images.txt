@@ -16,12 +16,18 @@ flannel/flannel:v0.25.4
 registry.k8s.io/ingress-nginx/controller:v1.10.1
 registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.1
 
+# sealos
+labring/kubernetes:v1.25.0
+labring/helm:v3.8.2 labring/calico:v3.24.1
+
+
 # python
 python:3.9.13
 
 # BI 大屏幕工具
 gcpaas/dataroom:latest
 gcpaas/dataroom:2.0.2
+
 # istoreos
 --platform=linux/arm64 linkease/istorepanel:latest
 
