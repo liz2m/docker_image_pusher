@@ -18,7 +18,8 @@ registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.1
 
 # sealos
 labring/kubernetes:v1.25.0
-labring/helm:v3.8.2 labring/calico:v3.24.1
+labring/helm:v3.8.2 
+labring/calico:v3.24.1
 
 
 # python
