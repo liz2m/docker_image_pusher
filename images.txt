@@ -39,7 +39,7 @@ gcpaas/dataroom:2.0.2
 # alist
 xhofe/alist:latest
 
-# alisql
+# alisql-x
 alisql/alisql:latest
 
 #支持私库
