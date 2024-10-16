@@ -1,3 +1,5 @@
+fungo/alisql:5.6
+
 nginx
 # frp
 snowdreamtech/frps:0.44.0
