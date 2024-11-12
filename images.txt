@@ -1,5 +1,7 @@
-centos:centos7
-
+#k8s-1.23
+calico/cni:v3.25.0
+calico/node:v3.25.0
+calico/kube-controllers:v3.25.0
 nginx
 # frp
 snowdreamtech/frps:0.44.0
