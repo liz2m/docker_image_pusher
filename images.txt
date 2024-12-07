@@ -1,3 +1,5 @@
+srs:5
+eclipse-mosquitto:latest
 #k8s-1.23
 calico/cni:v3.25.0
 calico/node:v3.25.0
