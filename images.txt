@@ -1,5 +1,5 @@
 eclipse-mosquitto:latest
-
+srs:6
 
 
 #k8s-1.23
