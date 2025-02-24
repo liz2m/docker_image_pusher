@@ -5,84 +5,82 @@ mysql:8.0.39
 quay.io/minio/minio:RELEASE.2023-12-20T01-00-02Z
 
 #k8s-1.23
-calico/cni:v3.25.0
-calico/node:v3.25.0
-calico/kube-controllers:v3.25.0
-nginx
+#calico/cni:v3.25.0
+#calico/node:v3.25.0
+#calico/kube-controllers:v3.25.0
 # frp
-snowdreamtech/frps:0.44.0
+#snowdreamtech/frps:0.44.0
 # gitlab
-gitlab/gitlab-ce:16.3.2-ce.0
+#gitlab/gitlab-ce:16.3.2-ce.0
 # jumpserver
-jumpserver/jms_all:v3.10.10
+#jumpserver/jms_all:v3.10.10
 # easytier
-easytier/easytier
+#easytier/easytier
 # k8s flannel 组件
-flannel/flannel:v0.25.4
-flannel/flannel-cni-plugin:v1.4.1-flannel1
-flannel/flannel:v0.25.4
-
-flannel/flannel:v0.26.0
-flannel/flannel-cni-plugin:v1.5.1-flannel2
-flannel/flannel:v0.26.0
+#flannel/flannel:v0.25.4
+#flannel/flannel-cni-plugin:v1.4.1-flannel1
+#flannel/flannel:v0.25.4
+#flannel/flannel:v0.26.0
+#flannel/flannel-cni-plugin:v1.5.1-flannel2
+#flannel/flannel:v0.26.0
 
 
 #k8s ingress-nginx 主键
-registry.k8s.io/ingress-nginx/controller:v1.10.1
-registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.1
+#registry.k8s.io/ingress-nginx/controller:v1.10.1
+#registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.1
 
 # sealos
-labring/kubernetes:v1.25.0
-labring/helm:v3.8.2 
-labring/calico:v3.24.1
+#labring/kubernetes:v1.25.0
+#labring/helm:v3.8.2 
+#labring/calico:v3.24.1
 
 # milvus
-quay.io/coreos/etcd:v3.5.5
-minio/minio:RELEASE.2023-03-20T20-16-18Z
-milvusdb/milvus:v2.4.6
+#quay.io/coreos/etcd:v3.5.5
+#minio/minio:RELEASE.2023-03-20T20-16-18Z
+#milvusdb/milvus:v2.4.6
 
 # python
-python:3.9.13
+#python:3.9.13
 
 # BI 大屏幕工具
-gcpaas/dataroom:latest
-gcpaas/dataroom:2.0.2
+#gcpaas/dataroom:latest
+#gcpaas/dataroom:2.0.2
 
 # istoreos
---platform=linux/arm64 linkease/istorepanel:latest
+#--platform=linux/arm64 linkease/istorepanel:latest
 
 # alist
-xhofe/alist:latest
+#xhofe/alist:latest
 
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+#--platform=linux/arm64 xiaoyaliu/alist
 
 # dify
-langgenius/dify-api:0.14.2
-langgenius/dify-web:0.14.2
-postgres:15-alpine
-redis:6-alpine
-langgenius/dify-sandbox:0.2.10
-ubuntu/squid:latest
-certbot/certbot
-nginx:latest
-pingcap/tidb:v8.4.0
-semitechnologies/weaviate:1.19.0
-langgenius/qdrant:v1.7.3
-pgvector/pgvector:pg16
-tensorchord/pgvecto-rs:pg16-v0.3.0
-ghcr.io/chroma-core/chroma:0.5.20
-quay.io/oceanbase/oceanbase-ce:4.3.3.0-100000142024101215
-container-registry.oracle.com/database/free:latest
-quay.io/coreos/etcd:v3.5.5
-minio/minio:RELEASE.2023-03-20T20-16-18Z
-milvusdb/milvus:v2.3.1
-opensearchproject/opensearch:latest
-opensearchproject/opensearch-dashboards:latest
-myscale/myscaledb:1.6.4
-docker.elastic.co/elasticsearch/elasticsearch:8.14.3
-docker.elastic.co/kibana/kibana:8.14.3
-downloads.unstructured.io/unstructured-io/unstructured-api:latest
+#langgenius/dify-api:0.14.2
+#langgenius/dify-web:0.14.2
+#postgres:15-alpine
+#redis:6-alpine
+#langgenius/dify-sandbox:0.2.10
+#ubuntu/squid:latest
+#certbot/certbot
+#nginx:latest
+#pingcap/tidb:v8.4.0
+#semitechnologies/weaviate:1.19.0
+#langgenius/qdrant:v1.7.3
+#pgvector/pgvector:pg16
+#tensorchord/pgvecto-rs:pg16-v0.3.0
+#ghcr.io/chroma-core/chroma:0.5.20
+#quay.io/oceanbase/oceanbase-ce:4.3.3.0-100000142024101215
+#container-registry.oracle.com/database/free:latest
+#quay.io/coreos/etcd:v3.5.5
+#minio/minio:RELEASE.2023-03-20T20-16-18Z
+#milvusdb/milvus:v2.3.1
+#opensearchproject/opensearch:latest
+#opensearchproject/opensearch-dashboards:latest
+#myscale/myscaledb:1.6.4
+#docker.elastic.co/elasticsearch/elasticsearch:8.14.3
+#docker.elastic.co/kibana/kibana:8.14.3
+#downloads.unstructured.io/unstructured-io/unstructured-api:latest
