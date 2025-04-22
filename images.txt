@@ -1,4 +1,4 @@
-easytier/easytier:v2.2.4
+--platform=linux/arm64 easytier/easytier:v2.2.4
 
 # nodered/node-red:4.0.9-22
 # ragflow
