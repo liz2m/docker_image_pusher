@@ -1,5 +1,5 @@
 --platform=linux/arm64 easytier/easytier:v2.2.4
-
+nginx:latest
 # nodered/node-red:4.0.9-22
 # ragflow
 #infiniflow/ragflow:v0.16.0
